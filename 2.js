@@ -1,4 +1,5 @@
-const { CARGO_LIST } = require("./data");
+const { CARGO_LIST } = require('./data');
+
 let sum = 0;
 
 function getFuilForMass(mass) {
@@ -14,7 +15,7 @@ function getFuilForFuil(fuil) {
   getFuilForFuil(additionalFuil);
 }
 
-CARGO_LIST.forEach(cargo => {
+CARGO_LIST.forEach((cargo) => {
   const fuilForCargo = getFuilForMass(cargo);
   sum += fuilForCargo;
   getFuilForFuil(fuilForCargo);

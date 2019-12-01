@@ -98,7 +98,7 @@ const CARGO_LIST = [
   67129,
   131571,
   147694,
-  118053
+  118053,
 ];
 
 exports.CARGO_LIST = CARGO_LIST;

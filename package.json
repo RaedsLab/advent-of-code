@@ -1,0 +1,29 @@
+{
+  "name": "advent-of-code",
+  "version": "1.0.0",
+  "description": "A collection of my personal solutions to the [Advent of Code (2019)](https://adventofcode.com/2019/about).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RaedsLab/advent-of-code.git"
+  },
+  "keywords": [
+    "advent"
+  ],
+  "author": "Raed Chammam",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/RaedsLab/advent-of-code/issues"
+  },
+  "homepage": "https://github.com/RaedsLab/advent-of-code#readme",
+  "devDependencies": {
+    "eslint": "^6.7.2",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "prettier": "^1.19.1",
+    "prettier-eslint": "^9.0.1"
+  }
+}
