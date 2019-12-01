@@ -11,3 +11,5 @@ If you want to run the first solution you can directly run `node 1.js` in the di
 I'm running Node `v10.15.3`.
 
 ## LICENSE
+
+GNU General Public License v3.0
