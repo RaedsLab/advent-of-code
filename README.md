@@ -6,7 +6,7 @@ The code is meant to be quick and dirty. If you're searching for elegance and ef
 
 Most solutions will be in JavaScript and numbered by the challenge index.
 
-If you want to run the first solution you can directly run `node 1.js` in the directory of this project.
+If you want to run the first solution you can directly run `node src/day_1.js` in the directory of this project.
 
 I'm running Node `v10.15.3`.
 

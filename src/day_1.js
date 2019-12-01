@@ -1,6 +1,9 @@
 const { CARGO_LIST } = require('./data');
 
-let sum = 0;
+const hrstart = process.hrtime();
+
+let partOne = 0;
+let partTwo = 0;
 
 function getFuelForMass(mass) {
   return Math.floor(mass / 3) - 2;
@@ -11,14 +14,20 @@ function getFuelForFuel(fuel) {
   if (additionalFuel <= 0) {
     return;
   }
-  sum += additionalFuel;
+  partTwo += additionalFuel;
   getFuelForFuel(additionalFuel);
 }
 
 CARGO_LIST.forEach((cargo) => {
   const fuelForCargo = getFuelForMass(cargo);
-  sum += fuelForCargo;
+  partOne += fuelForCargo;
+  partTwo += fuelForCargo;
   getFuelForFuel(fuelForCargo);
 });
 
-console.log(sum);
+const hrend = process.hrtime(hrstart);
+
+console.log('Part one', partOne);
+console.log('Part two', partTwo);
+
+console.info('Execution time: %dms', hrend[1] / 1000000);
