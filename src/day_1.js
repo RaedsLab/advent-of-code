@@ -6,7 +6,7 @@ let partOne = 0;
 let partTwo = 0;
 
 function getFuelForMass(mass) {
-  return Math.floor(mass / 3) - 2;
+  return __(mass / 3) - 2;
 }
 
 function getFuelForFuel(fuel) {
