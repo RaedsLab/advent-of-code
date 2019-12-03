@@ -13,6 +13,7 @@ module.exports = {
     ecmaVersion: 2018,
   },
   rules: {
+    'no-plusplus': 0,
     'no-bitwise': 1,
     'no-console': 0,
   },
